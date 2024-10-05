@@ -47,7 +47,7 @@ public class Main {
         frame.setVisible(true);
 
 
-        String rutaArchivo = "reporte.txt"; // Nombre y ruta donde se guardará el archivo .txt
+        String rutaArchivo = "src/Resources/reporte.txt"; // Nombre y ruta donde se guardará el archivo .txt
         GenerarReporte.generarReporte(rutaArchivo, nuevaAgenda);
     }
 }
